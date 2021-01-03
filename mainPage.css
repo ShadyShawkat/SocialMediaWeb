@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.lightBody {
+    background-color: #DAE0E6;
+}
+
+.darkBody {
+    background-color: #000000ea;
+}
+
+#searchIcon {
+    color: #ff4500;
+}
+
+#mainContent {
+    margin-top: 85px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-img {
+    opacity: .35;
+    height: 100%
+}
+
+#ddlModeChangeItem:hover {
+    cursor: pointer;
+}
+
+.card {
+    height: 175px;
+    background-color: #424141;
+}
+
+.borderRadius {
+    border-radius: 20px
+}
+
+.awesome-light {
+    color: white
+}
+
+.awesome-dark {
+    color: #424141
+}
+
+.post-card {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.clicked {
+    color: #ff4500;
+}
+
+.profileImg {
+    border-radius: 50%;
+    width: 100%;
+}
+
+
+/* .profileLink {
+    width: 30px;
+} */
+
+.profileLink img {
+    width: 30px;
+}
+
+
+/* .commentTxt {
+    max-width: 94%;
+} */
+
+.cardBody {
+    width: 100%;
+}
+
+.postImg {
+    width: 100%;
+    height: auto;
+}
+
+.deleteCommentBtn {
+    height: 30px;
+}
+
+#topComms {
+    background-image: linear-gradient(rgb(131, 243, 234), rgba(4, 71, 66, 0.74));
+    height: 100px;
+}
+
+#card1 {
+    background-image: linear-gradient(rgba(77, 77, 77, 0.3), rgb(0, 0, 0)), url("Images/1.jpg");
+    background-size: cover;
+}
+
+#card2 {
+    background-image: linear-gradient(rgba(77, 77, 77, 0.3), rgb(0, 0, 0)), url("Images/2.jpg");
+    background-size: cover;
+}
+
+#card3 {
+    background-image: linear-gradient(rgba(77, 77, 77, 0.3), rgb(0, 0, 0)), url("Images/3.jpg");
+    background-size: cover;
+}
+
+#card4 {
+    background-image: linear-gradient(rgba(77, 77, 77, 0.3), rgb(0, 0, 0)), url("Images/4.jpg");
+    background-size: cover;
+}

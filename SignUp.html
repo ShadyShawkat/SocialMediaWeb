@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Reddit Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a8ab9db749.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mainPage.css">
+    <script src="SignUp.js"></script>
+</head>
+
+<body class="lightBody">
+
+    <!-- navbar -->
+    <nav class="row navbar navbar-expand-sm bg-light fixed-top bg-light pr-4 pl-4 flex-nowrap">
+        <a href="index.html"><img id="topLogo" src="Images/TopLogoLight.PNG" alt="Reddit Logo"></a>
+    </nav>
+
+    <div id="mainContent" class="container pt-5" style="height: 700px;">
+        <div class="shadow-lg rounded bg-light p-3 col-7 mx-auto mt-5">
+            <form id="myForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Username">
+                </div>
+                <div class="alert alert-warning d-none">
+                    Name should be at least 5 letters!
+                </div>
+                <div class="form-group">
+                    <label for="emailAddress">Email address</label>
+                    <input type="email" class="form-control" id="emailAddress" placeholder="Examble123@test.com">
+                </div>
+                <div class="alert alert-warning d-none">
+                    Please enter a valid Email!
+                </div>
+                <div class="form-group">
+                    <label for="pass">Password</label>
+                    <input type="password" class="form-control" id="pass" placeholder="Password">
+                </div>
+                <div class="alert alert-warning d-none">
+                    Password should have at least one number, lowercase ,uppercase letter and a length of 8 miniumum!
+                </div>
+                <div class="form-group">
+                    <label for="repass">Repeat Password</label>
+                    <input type="password" class="form-control" id="repass" placeholder="Repeat Password">
+                </div>
+                <div class="alert alert-warning d-none">
+                    Please reenter your password!
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="termsAndConditionsCheck">
+                    <label class="form-check-label" for="termsAndConditionsCheck">
+                        I agree on <a href="#">Reddit's Terms and Conditions.</a>
+                    </label>
+                </div>
+                <div class="d-flex">
+                    <a href="index.html" id="submit" class="btn btn-primary mt-2 ml-auto font-weight-bold disabled">Register</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <footer class="container-fluid px-0">
+        <div class="bg-light text-dark px-5 row pt-5 justify-content-between flex-md-row flex-column">
+            <div class="col-md-1 col-12 align-self-start">
+                <h2 class="font-weight-bolder text-center mb-5">Reddit</h2>
+            </div>
+            <div class="d-flex flex-column col-md-2 col-12 mb-5">
+                <h4 class="font-weight-bold text-md-left text-center">Popular Topics</h4>
+                <br>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Agile & Lean UX</a>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Application Design</a>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Design Process</a>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Ecommerce Design</a>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Human Computer Interaction</a>
+            </div>
+            <div class="d-flex flex-column col-md-2 col-12 mb-5">
+                <h4 class="font-weight-bold text-md-left text-center">Contact Us</h4>
+                <br>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Technical Support</a>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Join Our Team</a>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Report A Bug</a>
+            </div>
+            <div class="d-flex flex-column col-md-2 col-12 mb-3">
+                <h4 class="font-weight-bold text-md-left text-center">Follow Us</h4>
+                <br>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Facebook</a>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Twitter</a>
+                <a href="#" class="text-dark mb-3 text-md-left text-center">Youtube</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
